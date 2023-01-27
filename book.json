@@ -58,8 +58,14 @@
       ]
     },
     "anchor-navigation-ex": {
-      "showLevel": true, 
-      "showGoTop": true 
+      "showLevel": true,
+      "showGoTop": true,
+      "associatedWithSummary": true,
+      "printLog": false,
+      "multipleH1": true,
+      "multipleH2": true,
+      "multipleH3": true,
+      "mode": "float"
     }
   }
 }
