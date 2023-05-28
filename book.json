@@ -11,7 +11,7 @@
     "alerts",
     "popup",
     "prism",
-    "gitbook-plugin-scripts",
+    "scripts",
     "-highlight",
     "-livereload"
   ],
