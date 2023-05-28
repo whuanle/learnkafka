@@ -71,6 +71,11 @@
       "multipleH3": true,
       "mode": "float"
     },
+    "hide-element": {
+      "elements": [
+        ".gitbook-link"
+      ]
+    },
     "head-append": {
       "code": [
         "<SCRIPTTAG>",
