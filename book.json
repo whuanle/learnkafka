@@ -11,6 +11,7 @@
     "alerts",
     "popup",
     "prism",
+    "gitbook-plugin-scripts",
     "-highlight",
     "-livereload"
   ],
@@ -66,6 +67,11 @@
       "multipleH2": true,
       "multipleH3": true,
       "mode": "float"
+    },
+    "scripts": {
+      "files": [
+        "./tj.js"
+      ]
     }
   }
 }
