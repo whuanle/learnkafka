@@ -11,7 +11,8 @@
     "alerts",
     "popup",
     "prism",
-    "scripts",
+    "hide-element",
+    "head-append",
     "-highlight",
     "-livereload"
   ],
@@ -21,7 +22,8 @@
   "language": "zh-hans",
   "links": {
     "sidebar": {
-      "痴者工良的博客": "https://www.whuanle.cn"
+      "痴者工良的博客": "https://www.whuanle.cn",
+      "粤ICP备18051778号":"https://beian.miit.gov.cn/"
     }
   },
   "pluginsConfig": {
@@ -53,6 +55,7 @@
         "prismjs/prism.js",
         "prismjs/components.js",
         "prismjs/components/prism-go.min.js",
+        "prismjs/components/prism-csharp.min.js",
         "prismjs/components/prism-yaml.min.js",
         "prismjs/components/prism-bash.min.js",
         "prismjs/components/prism-shell-session.min.js"
@@ -68,9 +71,17 @@
       "multipleH3": true,
       "mode": "float"
     },
-    "scripts": {
-      "files": [
-        "./tj.js"
+    "head-append": {
+      "code": [
+        "<SCRIPTTAG>",
+        "var _hmt = _hmt || [];",
+        "(function() {",
+        "  var hm = document.createElement(\"script\");",
+        "  hm.src = \"https://hm.baidu.com/hm.js?4dc6775858839bb5054e04e5161da8af\";",
+        "  var s = document.getElementsByTagName(\"script\")[0]; ",
+        "  s.parentNode.insertBefore(hm, s);",
+        "})();",
+        "</SCRIPTTAG>"
       ]
     }
   }
